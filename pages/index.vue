@@ -1,7 +1,7 @@
 <template>
     <div class="d-flex align-center justify-center flex-column" style="min-height: 80vh;">
         <v-card class="mt-16 mb-5" style="border-radius: 0; width: 80%;" color="#C5E3AC">
-            <v-card-title class="text-h5 mb-0"><p class="protocolos mb-0"><p class="ml-5 mb-0" style="font-family: 'Newsreader', sans-serif;" >PROTOCOLOS VACINAIS</p></p></v-card-title>
+            <v-card-title class="text-h5 mb-0"><p class="protocolos mb-0"><p class="ml-5 mb-0" style="font-family: 'Newsreader', sans-serif;" >{{ titulo }}</p></p></v-card-title>
         </v-card>
         <v-card color="#C5E3AC" class="pt-5 pb-10" style="width: 80%; border-radius: 0;">
                 <v-expansion-panels flat elevation="0" color="#C5E3AC" class="mb-0" accordion>
@@ -167,6 +167,8 @@ Purevax RCP (versão inativada): Livre de adjuvantes, indicada para gatos com ma
     obs:`o coco do Parvovirus tem um odor fetido e unico.`,
 },    
 ])
+
+const titulo = `PROTOCOLOS VACINAIS`
 </script>
 
 <style scoped>
