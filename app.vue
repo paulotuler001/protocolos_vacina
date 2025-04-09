@@ -1,5 +1,6 @@
 <template>
   <v-app>
+		<Analytics/>
     <div class="mb-5">
       <AppBar></AppBar>
     </div>
@@ -11,3 +12,8 @@
     </v-footer>
   </v-app>
 </template>
+
+<script setup>
+import { Analytics } from '@vercel/analytics/nuxt'
+
+</script>
