@@ -1,17 +1,17 @@
 <template>
     <div class="d-flex align-center justify-center flex-column" style="min-height: 80vh;">
         <v-card class="mt-16 mb-5" style="border-radius: 0; width: 80%;" color="#C5E3AC">
-            <v-card-title class="text-h5 mb-0"><p class="protocolos mb-0"><p class="ml-5 mb-0" style="font-family: 'Newsreader', sans-serif;" >{{ titulo }}</p></p></v-card-title>
+            <v-card-text class="text-h6 mb-0"><p class="protocolos mb-0"><p class="ml-5 text-center mb-0" style="font-family: 'Newsreader', sans-serif;" >{{ titulo }}</p></p></v-card-text>
         </v-card>
-        <v-card color="#C5E3AC" class="pt-5 pb-10" style="width: 80%; border-radius: 0;">
-                <v-expansion-panels flat elevation="0" color="#C5E3AC" class="mb-0" accordion>
-                    <v-expansion-panel v-for="vacina in vacinas" style="border: none !important;" class="mb-0">
-                        <v-expansion-panel-title>
+        <v-card color="#C5E3AC" class="pb-10" style="width: 80%; border-radius: 0; padding-bottom: 20px;overflow-y: auto;">
+                <v-expansion-panels flat elevation="0" color="#C5E3AC" class="mb-0" accordion style="min-height: 300px;  max-height: 500px;">
+                    <v-expansion-panel v-for="vacina in vacinas" style="border: none !important;">
+                        <v-expansion-panel-title style="">
                             <p class="protocolos">
                                 {{ vacina.titulo }}
                             </p>
                         </v-expansion-panel-title>
-                        <v-expansion-panel-text class="mb-0">
+                        <v-expansion-panel-text class="mb-0" style="">
                             <v-card class="intern-card" v-if="vacina.spp">
                                 <v-card-title>Variantes cobertas pela vacina</v-card-title>
                                 <v-card-text>{{ vacina.spp ?? "Não tem" }}</v-card-text>
@@ -32,7 +32,7 @@
                                 <v-card-title>Observação</v-card-title>
                                 <v-card-text >{{ vacina.obs ?? "Não tem" }}</v-card-text>
                             </v-card>
-                            <v-card v-if="vacina.apresentacao" class="intern-card">
+                            <v-card  class="intern-card">
                                 <v-card-title>Apresentação</v-card-title>
                                 <v-card-text>{{ vacina.apresentacao ?? "Não tem" }}</v-card-text>
                             </v-card>
@@ -175,6 +175,7 @@ const titulo = `PROTOCOLOS VACINAIS`
 .protocolos {
     border-bottom: 1.8px solid rgba(97, 97, 97, 0.5);
     font-family: 'Newsreader', sans-serif;
+		text-align: center;
 }
 .intern-card {
     margin-top: 10px;

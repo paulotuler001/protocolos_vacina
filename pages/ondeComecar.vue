@@ -1,7 +1,7 @@
 <template>
     <div class="d-flex align-center justify-center flex-column" style="min-height: 60vh;">
         <v-card class="mt-16 mb-15" style="border-radius: 0; width: 80%;" color="#C5E3AC">
-            <v-card-title class="text-h5 mb-0"><p class="protocolos mb-0"><p class="ml-5 mb-0" style="font-family: 'Newsreader', sans-serif;" >Como começar o protocolo vacinal do seu pet <v-icon>mdi-dog</v-icon></p></p></v-card-title>
+            <v-card-text class="text-h5 mb-0"><p class="protocolos mb-0"><p class="ml-0 mb-0" style="font-family: 'Newsreader', sans-serif;" >Como começar o protocolo vacinal do seu pet <v-icon>mdi-dog</v-icon></p></p></v-card-text>
         </v-card>
         <v-card color="#C5E3AC" class="mb-0" style="width: 80%; border-radius: 0;">
                 <v-card-text>
