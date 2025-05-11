@@ -17,11 +17,11 @@
                                 <v-card-text>{{ vacina.spp ?? "Não tem" }}</v-card-text>
                             </v-card>
                             <v-card class="intern-card">
-                                <v-card-title>Patógenos</v-card-title>
+                                <v-card-title>Agente Causador</v-card-title>
                                 <v-card-text>{{ vacina.patogenos ?? "Não tem" }}</v-card-text>
                             </v-card>
                             <v-card class="intern-card">
-                                <v-card-title>Patogenia</v-card-title>
+                                <v-card-title>Desenvolvimento da Doença</v-card-title>
                                 <v-card-text>{{ vacina.patogenia ?? "Não tem" }}</v-card-text>
                             </v-card>
                             <v-card class="intern-card">
@@ -72,6 +72,9 @@ semanas, sendo a dose inicial
 Três doses, com 3 semanas
 de intervalo.
 Anualmente`,
+    apresentacao: ` As vacinas de LCan
+    não podem prevenir a infecção de forma confiável e, portanto, mesmo os cães vacinados podem atuar como reservatório de L. infantum. e
+    continuar a transmitir a doença a outros cães e para pessoas (Wsava)`,
     obs:``,
 },    
 {
@@ -84,6 +87,9 @@ parenteral)`,
 Já a leishmaniose visceral, como o próprio nome indica, afeta as vísceras (ou órgãos internos), sobretudo fígado, baço, gânglios linfáticos e medula óssea, podendo levar à morte. Os sintomas incluem febre, emagrecimento, anemia, aumento do fígado e do baço, hemorragias e imunodeficiência. Doenças causadas por bactérias (principalmente pneumonias) ou manifestações hemorrágicas são as causas mais frequentes de óbito nos casos de leishmaniose visceral, especialmente em crianças. `,
     aplicacao:`Dose única a partir dos 6 meses
 de idade. Dose única. Anualmente`,
+    apresentacao: ` As vacinas de LCan
+    não podem prevenir a infecção de forma confiável e, portanto, mesmo os cães vacinados podem atuar como reservatório de L. infantum. e
+    continuar a transmitir a doença a outros cães e para pessoas (Wsava)`,
     obs:``,
 },    
 {
