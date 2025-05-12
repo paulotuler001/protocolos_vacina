@@ -52,9 +52,9 @@ recombinante A2, parenteral)`,
 recombinante A2, parenteral)`,
     patogenia: `A Leishmaniose Tegumentar é uma doença infecciosa, não contagiosa, que provoca úlceras na pele e mucosas. A doença é causada por protozoários do gênero Leishmania. No Brasil, há sete espécies de leishmanias envolvidas na ocorrência de casos de LT. As mais importantes são: Leishmania (Leishmania) amazonensis, L. (Viannia) guyanensis e L.(V.) braziliensis. A doença é transmitida ao ser humano pela picada das fêmeas de flebotomíneos (espécie de mosca) infectadas.)
 Já a leishmaniose visceral, como o próprio nome indica, afeta as vísceras (ou órgãos internos), sobretudo fígado, baço, gânglios linfáticos e medula óssea, podendo levar à morte. Os sintomas incluem febre, emagrecimento, anemia, aumento do fígado e do baço, hemorragias e imunodeficiência. Doenças causadas por bactérias (principalmente pneumonias) ou manifestações hemorrágicas são as causas mais frequentes de óbito nos casos de leishmaniose visceral, especialmente em crianças. `,
-    aplicacao: `"(filhotes)Três doses, com intervalo de 3
-semanas, sendo a dose inicial>4 meses de idade. 
-    (Adultos)Três doses, com 3 semanas de intervalo.ANUALMENTE"`,
+    aplicacao: 'Filhotes: Três doses, com intervalo de 3 '+
+'semanas, sendo a dose inicial - 4 meses de idade. '+  
+'Adultos: Três doses, com 3 semanas de intervalo - anualmente',
     obs: `A vacina não é essencial, mas é util na prevenção contra o parasita, entretanto a prevenção mais ativa é o controle dos flebotomineos(mosquitos principalmente) que carreiam o vetor, Vacinas não essenciais selecionadas podem ser recomendadas após consideração cuidadosa do estilo de vida de cada animal e da prevalência
 local de doenças controláveis por vacinação`,
     apresentacao: ` As vacinas de LCan
@@ -66,12 +66,7 @@ continuar a transmitir a doença a outros cães e para pessoas (Wsava)`,
     patogenos: `Utiliza das proteinas da leishmania infantumm(proteínas excretadassecretadas (LiESP) de L. infantum, parenteral)`,
     patogenia:`A Leishmaniose Tegumentar é uma doença infecciosa, não contagiosa, que provoca úlceras na pele e mucosas. A doença é causada por protozoários do gênero Leishmania. No Brasil, há sete espécies de leishmanias envolvidas na ocorrência de casos de LT. As mais importantes são: Leishmania (Leishmania) amazonensis, L. (Viannia) guyanensis e L.(V.) braziliensis. A doença é transmitida ao ser humano pela picada das fêmeas de flebotomíneos (espécie de mosca) infectadas.)
 Já a leishmaniose visceral, como o próprio nome indica, afeta as vísceras (ou órgãos internos), sobretudo fígado, baço, gânglios linfáticos e medula óssea, podendo levar à morte. Os sintomas incluem febre, emagrecimento, anemia, aumento do fígado e do baço, hemorragias e imunodeficiência. Doenças causadas por bactérias (principalmente pneumonias) ou manifestações hemorrágicas são as causas mais frequentes de óbito nos casos de leishmaniose visceral, especialmente em crianças. `,
-    aplicacao:`Três doses, com intervalo de 3
-semanas, sendo a dose inicial
->6 meses de idade.
-Três doses, com 3 semanas
-de intervalo.
-Anualmente`,
+    aplicacao:`Três doses, com intervalo de 3 semanas, sendo a dose inicial de 6 meses de idade. Três doses, com 3 semanas de intervalo. Anualmente`,
     apresentacao: ` As vacinas de LCan
     não podem prevenir a infecção de forma confiável e, portanto, mesmo os cães vacinados podem atuar como reservatório de L. infantum. e
     continuar a transmitir a doença a outros cães e para pessoas (Wsava)`,
@@ -106,7 +101,7 @@ parenteral),
 Bordetella bronchiseptica
 (antígeno fimbrial, parenteral)`,
     patogenos: `Utiliza bactérias avirulentas vivas da Bordetella bronchiseptica. Bordetella bronchiseptica, CPiV (Vírus da Parainfluenza Canina) e CAV-2 (Adenovírus Canino Tipo 2)`,
-    patogenia:`"Bordetella bronchiseptica: Causa tosse seca persistente, espirros, corrimento nasal e, em casos graves, pneumonia. Transmissão ocorre por gotículas respiratórias e contato direto com secreções de animais infectados.
+    patogenia:`Bordetella bronchiseptica: Causa tosse seca persistente, espirros, corrimento nasal e, em casos graves, pneumonia. Transmissão ocorre por gotículas respiratórias e contato direto com secreções de animais infectados.
 CPiV: Provoca destruição do epitélio respiratório, resultando em tosse aguda, laringite e traqueíte. Pode levar a complicações secundárias, como infecções bacterianas.
 CAV-2: Afeta o epitélio respiratório, causando tosse, corrimento nasal e, em casos graves, pneumonia hemorrágica.`,
     aplicacao:`"Filhotes: Vacinas aplicadas na mucosa oferecem proteção com dose única. Algumas podem ser administradas a partir de 3 semanas de idade, enquanto outras a partir de 7 ou 8 semanas. É importante seguir as orientações específicas da bula.
@@ -173,7 +168,7 @@ Purevax RCP (versão inativada): Livre de adjuvantes, indicada para gatos com ma
     patogenia:` Altamente contagiosa para filhotes até 6 meses de idade, de transmissão oral-fecal e os sintomas são vômitos, diarreia hemorrágica com odor forte e característico, depressão, perda de apetite, febre e desidratação. Miocardite pode ocorrer em filhotes neonatos, manifestando sinais clínicos semanas após a infecção, enquanto a contagem de glóbulos brancos diminui devido à infecção da medula óssea e tecidos linfoides.`,
     apresentacao: `NOBIVAC® DHPPI+L; Recombitek C6/CV; VANGUARD HTLP 5/CV-L (V8)`,
     aplicacao:`Iniciar com 4-6 semanas de idade e então a cada 2 a 4 semanas até 12 semanas de idade ou mais. Totalizando 4 doses com intervalo. Necessário reforço anual.`,
-    obs:`o coco do Parvovirus tem um odor fetido e unico.`,
+    obs:`As fezes do Parvovirus tem um odor fétido e único.`,
 },    
 ])
 
